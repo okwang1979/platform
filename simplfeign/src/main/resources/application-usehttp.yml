@@ -1,0 +1,12 @@
+server:
+  port: 9001
+feign:
+  compression:
+    request:
+      enabled: true
+      mime-types: text/mxl,application/xml,application/json
+      min-request-size: 2048
+    response:
+      enabled: true
+      
+      
